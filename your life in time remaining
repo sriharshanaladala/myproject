@@ -1,0 +1,10 @@
+age = input("What is your current age?")
+years = 90 - int(age)
+months = int(years) * 12
+weeks = int(months) * 52
+days = int(years) * 365
+hours = int(days) * 24
+minutes = int(hours) * 60
+seconds = int(minutes) * 60
+
+print (f"you have {years} years \n , {months} months \n , {weeks} weeks \n , {days} days \n , {hours} hours \n , {minutes} minutes \n and {seconds} seconds left")
